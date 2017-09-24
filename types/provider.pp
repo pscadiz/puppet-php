@@ -24,5 +24,7 @@ type Php::Provider = Enum[
   'freebsd',
   'pkgng',
   'ports',
+  # lint:ignore:trailing_comma
   'portupgrade'
 ]
+# lint:endignore
